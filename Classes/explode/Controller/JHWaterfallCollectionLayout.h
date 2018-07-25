@@ -2,8 +2,8 @@
 //  JHWaterfallCollectionLayout.h
 //  WaterfallCollection
 //
-//  Created by Jivan on 2017/3/17.
-//  Copyright © 2017年 Jivan. All rights reserved.
+//  Created by walker on 2018/6/6.
+//  Copyright © 2018年 walker. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
