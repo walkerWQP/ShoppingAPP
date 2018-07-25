@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QYAgencyViewController">
+            <connections>
+                <outlet property="AgencyImageView" destination="Ls9-ce-X9P" id="huX-d8-Yae"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ls9-ce-X9P">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noQ-2d-bt0">
+                    <rect key="frame" x="16" y="28" width="24" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="navigationButtonReturn"/>
+                    <state key="selected" image="navigationButtonReturnClick"/>
+                    <state key="highlighted" image="navigationButtonReturnClick"/>
+                    <connections>
+                        <action selector="backClick:" destination="-1" eventType="touchUpInside" id="2jc-uM-Hty"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Ls9-ce-X9P" secondAttribute="trailing" id="1lu-Kf-L4t"/>
+                <constraint firstItem="Ls9-ce-X9P" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="1sc-qV-Rau"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="Ls9-ce-X9P" secondAttribute="bottom" id="Ifn-7C-DhW"/>
+                <constraint firstItem="Ls9-ce-X9P" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Xbu-rV-Lql"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="73.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="navigationButtonReturn" width="15" height="21"/>
+        <image name="navigationButtonReturnClick" width="15" height="21"/>
+    </resources>
+</document>

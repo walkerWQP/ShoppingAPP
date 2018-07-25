@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="QYHomeCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="l1 (4).png" translatesAutoresizingMaskIntoConstraints="NO" id="vgj-KL-6B1">
+                        <rect key="frame" x="10" y="2" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="GVc-HG-3gG"/>
+                            <constraint firstAttribute="height" constant="40" id="reV-AB-4ff"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最新优惠" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ge2-4o-ghC">
+                        <rect key="frame" x="1" y="41" width="58" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="vgj-KL-6B1" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="0M9-T0-uGM"/>
+                <constraint firstAttribute="bottom" secondItem="Ge2-4o-ghC" secondAttribute="bottom" constant="2" id="H9c-mX-H7E"/>
+                <constraint firstItem="vgj-KL-6B1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="KWi-DY-ePK"/>
+                <constraint firstItem="Ge2-4o-ghC" firstAttribute="centerX" secondItem="vgj-KL-6B1" secondAttribute="centerX" id="YNM-ZP-F7L"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="l1 (4).png" width="114" height="116"/>
+    </resources>
+</document>

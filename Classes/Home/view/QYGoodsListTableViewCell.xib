@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="QYGoodsListTableViewCell" rowHeight="122" id="KGk-i7-Jjw" customClass="QYGoodsListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="286"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="285.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Nx-py-mni" userLabel="Image View1">
+                        <rect key="frame" x="10" y="0.0" width="170" height="191"/>
+                        <color key="backgroundColor" red="1" green="0.50588235290000005" blue="0.28627450980000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="191" id="Qop-OQ-LTx"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o80-0W-Z45" userLabel="Image View2">
+                        <rect key="frame" x="195" y="0.0" width="170" height="191"/>
+                        <color key="backgroundColor" red="0.73725490199999999" green="0.73725490199999999" blue="0.38279521570000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="191" id="UHu-ib-xp7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="速干 T恤短袖情侣干衣 V 领透气夏季运动跑步大码宽松" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dhH-ui-3wh">
+                        <rect key="frame" x="10" y="194" width="170" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="3lB-Gh-r61"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="速干 T恤短袖情侣干衣 V 领透气夏季运动跑步大码宽松" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYm-vz-kw4">
+                        <rect key="frame" x="195" y="194" width="170" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="AkM-VJ-mqp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¥65" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRa-io-gYi">
+                        <rect key="frame" x="16" y="229" width="68" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qb-oJ-wDo">
+                        <rect key="frame" x="122" y="230" width="47" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="¥65">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dqC-8Z-Az3">
+                        <rect key="frame" x="114" y="254" width="62" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="立即领取">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="销量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V43-FA-DF7">
+                        <rect key="frame" x="16" y="254" width="77" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="¥65" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEi-gh-xHb">
+                        <rect key="frame" x="195" y="230" width="68" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hm7-JG-7iT">
+                        <rect key="frame" x="318" y="231" width="47" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="¥65">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="销量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMn-DK-ND9">
+                        <rect key="frame" x="195" y="254" width="77" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9s-Xb-hva">
+                        <rect key="frame" x="303" y="254" width="62" height="24"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="立即领取">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Nx-py-mni" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="5ne-G4-qb6"/>
+                    <constraint firstItem="o80-0W-Z45" firstAttribute="width" secondItem="4Nx-py-mni" secondAttribute="width" id="AnS-7u-k9D"/>
+                    <constraint firstItem="dhH-ui-3wh" firstAttribute="top" secondItem="4Nx-py-mni" secondAttribute="bottom" constant="3" id="H7b-Bf-jcL"/>
+                    <constraint firstItem="dhH-ui-3wh" firstAttribute="leading" secondItem="4Nx-py-mni" secondAttribute="leading" id="ODx-pv-ZJj"/>
+                    <constraint firstItem="dYm-vz-kw4" firstAttribute="trailing" secondItem="o80-0W-Z45" secondAttribute="trailing" id="VY1-5f-ce1"/>
+                    <constraint firstItem="4Nx-py-mni" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="g4A-hg-MNz"/>
+                    <constraint firstItem="o80-0W-Z45" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="iNH-MS-pT6"/>
+                    <constraint firstAttribute="trailing" secondItem="o80-0W-Z45" secondAttribute="trailing" constant="10" id="pqq-2A-eOg"/>
+                    <constraint firstItem="dYm-vz-kw4" firstAttribute="top" secondItem="o80-0W-Z45" secondAttribute="bottom" constant="3" id="q12-o4-u5g"/>
+                    <constraint firstItem="dhH-ui-3wh" firstAttribute="trailing" secondItem="4Nx-py-mni" secondAttribute="trailing" id="sxl-cU-8Sp"/>
+                    <constraint firstItem="o80-0W-Z45" firstAttribute="leading" secondItem="4Nx-py-mni" secondAttribute="trailing" constant="15" id="wpy-ss-RPF"/>
+                    <constraint firstItem="dYm-vz-kw4" firstAttribute="leading" secondItem="o80-0W-Z45" secondAttribute="leading" id="yfu-xk-hhO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outletCollection property="imageArray" destination="o80-0W-Z45" id="J1H-A6-877"/>
+                <outletCollection property="labelArray" destination="dhH-ui-3wh" id="30n-1B-bRY"/>
+                <outletCollection property="labelArray" destination="dYm-vz-kw4" id="oGv-KV-RXF"/>
+                <outletCollection property="imageArray" destination="4Nx-py-mni" id="Oq9-q2-Vf5"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="93"/>
+        </tableViewCell>
+    </objects>
+</document>

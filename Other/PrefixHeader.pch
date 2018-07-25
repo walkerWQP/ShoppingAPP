@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  shopProject
+//
+//  Created by 邱越 on 2018/6/10.
+//  Copyright © 2018年 邱越. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//导入头文件
+#import "AFNetworking.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
+#import "QYConst.h"
+#import "AFNetworkingRequest.h"
+#import "UIImageView+WebCache.h"
+#import "QYRefreshFooter.h"
+#import "QYRefreshHeader.h"
+#import "QYBaseConts.h"
+#define NAVBAR_COLORCHANGE_POINT (-IMAGE_HEIGHT + NAV_HEIGHT)
+#define NAV_HEIGHT 64
+#define IMAGE_HEIGHT 200
+#define SCROLL_DOWN_LIMIT 70
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define pageMenuH 40
+#define NaviH (kScreenHeight == 812 ? 88 : 64) // 812是iPhoneX的高度
+
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
+
+
+#define LIMIT_OFFSET_Y -(IMAGE_HEIGHT + SCROLL_DOWN_LIMIT)
+
+/*** 将服务器返回的数据写入plist ***/
+#define QYWriteToPlist(data, filename) [data writeToFile:[NSString stringWithFormat:@"/Users/qiuyue/Desktop/%@.plist", filename] atomically:YES];
+
+#define QYCustomCacheFile [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES).lastObject stringByAppendingPathComponent:@"Custom"]
+
+#endif /* PrefixHeader_pch */
